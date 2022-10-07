@@ -18,7 +18,7 @@ public class CustomerDataMenu {
         br.close();
     }
 
-    public static void customerInputMenu(int i) throws IOException {
+    public static Customer customerInputMenu(int i) throws IOException {
         int choice;
 
         Customer customer1 = new Customer();
@@ -33,8 +33,11 @@ public class CustomerDataMenu {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         choice =Integer.parseInt(br.readLine());
-
+        switch()
+        //System.out.println(); 이 Back을 누르면 반복이 되기때문에 따로 빼야할거같음
         
+        
+        return customer1;
     }
 
 
